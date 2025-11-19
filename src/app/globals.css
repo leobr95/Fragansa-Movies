@@ -510,8 +510,9 @@ html.dark .donut-ring { stroke: #333a46; }
 .btn:hover { filter: brightness(0.98); }
 
 .btn-accent {
+  margin-left: 5px;
   background: linear-gradient(145deg, rgba(100,140,250,.22), rgba(100,140,250,.12));
-  color: #2a4dda;
+  color: #1b2d76;
   border-color: rgba(100,140,250,.25);
 }
 .btn-accent:hover {
@@ -1323,4 +1324,7 @@ html.dark .modal {
     align-self: stretch;
     justify-content: flex-start;
   }
+}
+.modal-actions{
+  margin-top: 10px;
 }
