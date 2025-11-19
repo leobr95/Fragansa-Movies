@@ -316,12 +316,10 @@ html.dark .neo-pressable{
   display: inline-flex; align-items: center; justify-content: center;
   padding: 10px 14px; border: 0; border-radius: 12px; cursor: pointer;
   text-decoration: none; color: inherit; background: #eef1f6;
-  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.05), inset -1px -1px 3px rgba(255,255,255,0.9);
 }
 .btn:hover { filter: brightness(0.98); }
 .btn-accent {
   background: linear-gradient(145deg, #eff3f9, #e3e8f2);
-  box-shadow: 6px 6px 14px rgba(0,0,0,.08), -6px -6px 14px rgba(255,255,255,.9);
   font-weight: 600;
 }
 
@@ -507,7 +505,6 @@ html.dark .donut-ring { stroke: #333a46; }
   cursor: pointer;
   font-weight: 600;
   background: linear-gradient(145deg, rgba(255,255,255,.75), rgba(255,255,255,.6));
-  box-shadow: 6px 6px 12px rgba(0,0,0,.08), -6px -6px 12px rgba(255,255,255,.7);
   color: var(--fg, #1a1a1a);
 }
 .btn:hover { filter: brightness(0.98); }
@@ -518,7 +515,6 @@ html.dark .donut-ring { stroke: #333a46; }
   border-color: rgba(100,140,250,.25);
 }
 .btn-accent:hover {
-  box-shadow: 8px 8px 16px rgba(0,0,0,.10), -8px -8px 16px rgba(255,255,255,.8);
   filter: brightness(1.01);
 }
 
