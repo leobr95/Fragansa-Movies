@@ -6,7 +6,6 @@ import { useAuth } from '@/store/auth';
 import {
   ShieldCheck,
   Clapperboard,
-  Film,
   Users,
   Globe,
   LayoutGrid,
@@ -20,7 +19,6 @@ import {
   ExternalLink,
   Bell,
 } from 'lucide-react';
-import LangToggle from '@/components/LangToggle';
 import ThemeToggle from '@/components/ThemeToggle';
 
 export default function HomePage() {
@@ -84,8 +82,7 @@ export default function HomePage() {
       <section className="hero neo">
         <div className="container">
                     <div className="auth-brand-toggles">
-                      <LangToggle />
-                      <ThemeToggle />
+                      <ThemeToggle /><br />
                     </div>
           <div className="hero-badge">Leonardo Burbano • 2025</div>
           <h1 className="hero-title">Fragansa Movies</h1>
