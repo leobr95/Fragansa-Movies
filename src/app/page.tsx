@@ -20,6 +20,8 @@ import {
   ExternalLink,
   Bell,
 } from 'lucide-react';
+import LangToggle from '@/components/LangToggle';
+import ThemeToggle from '@/components/ThemeToggle';
 
 export default function HomePage() {
   const { t } = useI18n();
@@ -81,6 +83,10 @@ export default function HomePage() {
       {/* HERO */}
       <section className="hero neo">
         <div className="container">
+                    <div className="auth-brand-toggles">
+                      <LangToggle />
+                      <ThemeToggle />
+                    </div>
           <div className="hero-badge">Leonardo Burbano • 2025</div>
           <h1 className="hero-title">Fragansa Movies</h1>
           <p className="hero-subtitle">
